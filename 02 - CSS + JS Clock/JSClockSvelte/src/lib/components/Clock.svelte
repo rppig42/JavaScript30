@@ -15,16 +15,16 @@
 	const minuteDeg = spring(0, tweenedOptions);
 	const secondDeg = spring(0, tweenedOptions);
 
-	// setInterval(() => {
-	// 	const now = new Date();
-	// 	const hours = now.getHours();
-	// 	const minutes = now.getMinutes();
-	// 	const seconds = now.getSeconds();
+	setInterval(() => {
+		const now = new Date();
+		const hours = now.getHours();
+		const minutes = now.getMinutes();
+		const seconds = now.getSeconds();
 
-	// 	hourDeg.set((hours / 12) * 360);
-	// 	minuteDeg.set((minutes / 60) * 360);
-	// 	secondDeg.set((seconds / 60) * 360);
-	// }, 1000);
+		hourDeg.set((hours / 12) * 360);
+		minuteDeg.set((minutes / 60) * 360);
+		secondDeg.set((seconds / 60) * 360);
+	}, 1000);
 </script>
 
 <div class="clock">
