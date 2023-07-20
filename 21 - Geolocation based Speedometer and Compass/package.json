@@ -1,0 +1,15 @@
+{
+  "name": "21---geolocation-based-speedometer-and-compass",
+  "module": "index.ts",
+  "type": "module",
+  "scripts": {
+    "start": "browser-sync start --server --files \"*.html, *.ts, *.css, *.js\" --no-notify --https "
+  },
+  "devDependencies": {
+    "bun-types": "latest",
+    "browser-sync": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  }
+}
